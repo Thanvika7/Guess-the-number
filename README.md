@@ -1,11 +1,13 @@
-import random
+#Guess the number
 
-def guessing_game():
-    print("😁 Welcome to the Number Guessing Game!")
-    print("Choose your difficulty level:")
-    print("1. Easy 😂   (Range: 1-10, Attempts: 5)")
-    print("2. Medium 😨 (Range: 1-50, Attempts: 7)")
-    print("3. Hard 😵   (Range: 1-100, Attempts: 10)")
+    import random
+
+    def guessing_game():
+        print("😁 Welcome to the Number Guessing Game!")
+        print("Choose your difficulty level:")
+        print("1. Easy 😂   (Range: 1-10, Attempts: 5)")
+        print("2. Medium 😨 (Range: 1-50, Attempts: 7)")
+        print("3. Hard 😵   (Range: 1-100, Attempts: 10)")
     
     while True:
         try:
@@ -45,7 +47,6 @@ def guessing_game():
 
     print("Thanks for playing😊!")
 
-# Run the game
-if __name__ == "__main__":
-    guessing_game()
+    if __name__ == "__main__":
+        guessing_game()
 
