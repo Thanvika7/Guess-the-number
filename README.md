@@ -1,4 +1,3 @@
-#Guess the number
 import random
 
 def guessing_game():
